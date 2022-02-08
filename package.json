@@ -4,14 +4,14 @@
   "description": "Load testing of febby rest server",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vasuvanka/febby-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "vasu vanka",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vasuvanka/febby-app/issues"
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/vasuvanka/febby-app#readme",
   "dependencies": {
     "febby": "^0.3.3"
+  },
+  "engines": {
+    "node": "16.13.2"
   }
 }
