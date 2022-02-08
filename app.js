@@ -3,7 +3,7 @@ const {
 } = require('febby')
 
 const config = {
-    port: 3000,
+    port: process.env.PORT,
     serviceName: 'test app'
 }
 
